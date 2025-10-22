@@ -16,6 +16,11 @@
   weight = 10
 
 [[main]]
+  name = "Posts"
+  url = "/posts"
+  weight = 10
+
+[[main]]
   name = "Shortcodes"
   pageRef = "docs/shortcodes"
   weight = 15
