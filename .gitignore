@@ -1,0 +1,17 @@
+# Archivos y carpetas generados por Hugo
+/public/
+/resources/
+.hugo_build.lock
+.hugo_cache/
+
+# Archivos de sistema operativo (macOS y Windows)
+.DS_Store
+Thumbs.db
+
+# Archivos de editores (Vim y VS Code)
+*.swp
+*.swo
+.vscode/
+
+# Logs
+*.log
