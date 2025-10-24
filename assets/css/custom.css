@@ -8,3 +8,18 @@ img.logo {
   max-height: 6rem;  /* Ajusta este valor (original: 5rem) */
   max-width:  6rem;   /* Ajusta este valor (original: 5rem) */
 }
+
+/* --- Agrandar fuente y logos del menú superior --- */
+
+/* 1. Apunta a todos los textos del menú (Universo 25, Docs, Publicaciones, ES) */
+.main-menu .text-base,
+.main-menu .text-sm {
+  font-size: 1.20rem; /* Ajusta este valor (1rem es 16px, 1.15rem es ~18.4px) */
+}
+
+/* 2. Apunta a todos los íconos (GitHub, LinkedIn, Search, etc.) */
+.main-menu span.icon {
+  /* Le damos un tamaño explícito que coincida con la nueva fuente */
+  width: 1.20rem;   /* Ajusta este valor */
+  height: 1.20rem;  /* Ajusta este valor */
+}
