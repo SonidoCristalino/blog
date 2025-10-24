@@ -86,11 +86,11 @@
 # the copyright notice. Configure as per the main menu above.
 
  [[footer]]
-   name = "Tags"
-   pageRef = "tags"
+   name = "Etiquetas"
+   pageRef = "etiquetas"
    weight = 10
 
  [[footer]]
-   name = "Authors"
-   pageRef = "authors"
+   name = "Autores"
+   pageRef = "autores"
    weight = 20

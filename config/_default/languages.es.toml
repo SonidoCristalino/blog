@@ -21,3 +21,9 @@ title = "Universo 25"
     { linkedin = "https://www.linkedin.com/in/emilianosalvatori/" },
     { github = "https://github.com/SonidoCristalino" },
   ]
+
+[taxonomies]
+  tag = "etiquetas"
+  category = "categorias"
+  author = "autores"
+  series = "series"
