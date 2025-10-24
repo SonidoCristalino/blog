@@ -1,0 +1,10 @@
+/* --- Agrandar imagen de autor --- */
+img.rounded-full.medium-zoom-image {
+  width: 230px;   /* <-- Ajusta este valor (ej. 180px) */
+  height: 230px;  /* <-- Ajusta este valor (ej. 180px) */
+}
+/* --- Agrandar logo de la cabecera (esquina superior izquierda) --- */
+img.logo {
+  max-height: 6rem;  /* Ajusta este valor (original: 5rem) */
+  max-width:  6rem;   /* Ajusta este valor (original: 5rem) */
+}
