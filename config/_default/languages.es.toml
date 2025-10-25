@@ -20,6 +20,7 @@ title = "Universo 25"
   links = [
     { linkedin = "https://www.linkedin.com/in/emilianosalvatori/" },
     { github = "https://github.com/SonidoCristalino" },
+    { telegram = "https://t.me/ThereIsLifeOutThere" },
   ]
 
 [taxonomies]
