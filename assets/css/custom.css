@@ -23,3 +23,42 @@ img.logo {
   width: 1.20rem;   /* Ajusta este valor */
   height: 1.20rem;  /* Ajusta este valor */
 }
+
+/* --- Fondo de Gradiente Animado --- */
+
+/* 1. Fondo para MODO CLARO (Light Mode) */
+body {
+  background: linear-gradient(180deg, #F1F5F9, #C8D5E4); /* Colores claros de ejemplo */
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+/* 2. Fondo para MODO OSCURO (Dark Mode) - ¡Tus colores! */
+.dark body {
+  background: linear-gradient(180deg, #1e293b, #4d6997); /* Tus colores del generador */
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+/* 3. Las animaciones (Keyframes) - (solo se definen una vez) */
+@-webkit-keyframes AnimationName {
+  0%{background-position:51% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:51% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:51% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:51% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:51% 0%}
+}
