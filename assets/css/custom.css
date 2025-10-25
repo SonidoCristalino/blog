@@ -25,6 +25,7 @@ img.logo {
 }
 
 /* --- Fondo de Gradiente Animado --- */
+/* NOTA: En caso de querer quitar el fondo, elminar simplemente todo este bloque */
 
 /* 1. Fondo para MODO CLARO (Light Mode) */
 body {
