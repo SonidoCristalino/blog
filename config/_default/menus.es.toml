@@ -10,11 +10,6 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-  name = "Documentación"
-  pageRef = "docs"
-  weight = 10
-
 #[[main]]
 #  name = "Shortcodes"
 #  pageRef = "docs/shortcodes"
@@ -28,18 +23,28 @@
   name = "Terraform"
   parent = "Publicaciones"
   pageRef = "samples"
-  weight = 16
+  weight = 21
 
 [[main]]
   name = "Kubernetes"
   parent = "Publicaciones"
   pageRef = "examples"
-  weight = 30
+  weight = 22
 
 [[main]]
   name = "AWS"
   parent = "Publicaciones"
   pageRef = "guides"
+  weight = 23
+
+[[main]]
+  name = "Investigaciones"
+  pageRef = "docs"
+  weight = 30
+
+[[main]]
+  name = "Proyectos"
+  pageRef = "docs"
   weight = 40
 
 #[[main]]
@@ -69,23 +74,23 @@
 #  weight = 300
 #  url = "https://masto.ai/@blowfish"
 
-[[main]]
-  identifier = "github"
-  pre = "github"
-  url = "https://github.com/SonidoCristalino"
-  weight = 400
-
-[[main]]
-  identifier = "linkedin"
-  pre = "linkedin"
-  url = "https://www.linkedin.com/in/emilianosalvatori/"
-  weight = 410
-
-[[main]]
-  identifier = "telegram"
-  pre = "telegram"
-  url = "https://t.me/ThereIsLifeOutThere"
-  weight = 410
+# [[main]]
+#   identifier = "github"
+#   pre = "github"
+#   url = "https://github.com/SonidoCristalino"
+#   weight = 400
+# 
+# [[main]]
+#   identifier = "linkedin"
+#   pre = "linkedin"
+#   url = "https://www.linkedin.com/in/emilianosalvatori/"
+#   weight = 410
+# 
+# [[main]]
+#   identifier = "telegram"
+#   pre = "telegram"
+#   url = "https://t.me/ThereIsLifeOutThere"
+#   weight = 410
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
