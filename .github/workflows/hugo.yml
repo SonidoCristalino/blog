@@ -51,6 +51,11 @@ jobs:
         run: |
           aws s3 sync ./public/ s3://universo25-com --delete
 
+      # --- NUEVO PASO DE DEPURACIÓN ---
+      - name: Debug CloudFront ID
+        run: echo "CloudFront ID is ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}"
+      # --- FIN DEL PASO DE DEPURACIÓN ---
+      
       - name: Invalidate CloudFront Cache # Limpia el caché de CloudFront
         run: |
           aws cloudfront create-invalidation \
