@@ -49,8 +49,7 @@ jobs:
 
       - name: Deploy to S3 Bucket # Sincroniza la carpeta public/ con S3
         run: |
-          aws s3 sync ./public/ s3://universo-25-com --delete
-          # Reemplaza 'universo-25-com' con el nombre EXACTO de tu bucket S3
+          aws s3 sync ./public/ s3://universo25-com --delete
 
       - name: Invalidate CloudFront Cache # Limpia el caché de CloudFront
         run: |
