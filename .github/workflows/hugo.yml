@@ -39,6 +39,12 @@ jobs:
             --minify \
             --baseURL "${HUGO_BASEURL}"
 
+      - name: Upload artifact for debugging
+        uses: actions/upload-artifact@v4
+        with:
+          name: hugo-site-build # Le damos un nombre nuevo
+          path: ./public
+
       - name: Configure AWS Credentials # Paso para configurar el acceso a AWS
         uses: aws-actions/configure-aws-credentials@v4
         with:
