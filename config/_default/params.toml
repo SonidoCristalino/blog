@@ -15,7 +15,7 @@ enableCodeCopy = true
 
 replyByEmail = false
 
-mainSections = ["docs"]
+mainSections = ["publicaciones", "investigacion", "proyectos", "hobbies"]
 # robots = ""
 
 disableImageOptimization = false
