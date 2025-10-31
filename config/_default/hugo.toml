@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://localhost:1313"
+baseURL = "https://universo-25.com/"
 defaultContentLanguage = "es"
 disableLanguages = ["it", "ja", "zh-cn"] #to allow translation work requiring shipping to production
 

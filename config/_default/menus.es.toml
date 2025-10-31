@@ -22,29 +22,29 @@
 [[main]]
   name = "Terraform"
   parent = "Publicaciones"
-  pageRef = "samples"
+  pageRef = "publicaciones/terraform"
   weight = 21
 
 [[main]]
   name = "Kubernetes"
   parent = "Publicaciones"
-  pageRef = "examples"
+  pageRef = "publicaciones/kubernetes"
   weight = 22
 
 [[main]]
   name = "AWS"
   parent = "Publicaciones"
-  pageRef = "guides"
+  pageRef = "publicaciones/aws"
   weight = 23
 
 [[main]]
   name = "Investigaciones"
-  pageRef = "docs"
+  pageRef = "investigacion"
   weight = 30
 
 [[main]]
   name = "Proyectos"
-  pageRef = "docs"
+  pageRef = "proyectos"
   weight = 40
 
 #[[main]]
