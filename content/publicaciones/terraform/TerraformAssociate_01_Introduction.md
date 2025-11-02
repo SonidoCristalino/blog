@@ -114,12 +114,12 @@ Luego de esta introducción, debemos entender que ambas categorías se solapan e
 
 Terraform también se puede conectar con la herramienta Ansible para poder dar soporte en la Gestión de configuraciones de los servidores creados mediante Terraform. Es por eso que es tan importante Terraform, ya que nos permite conectarnos a otras aplicaciones tales como Ansible para poder tener un poder total sobre nuestra infraestructura. 
 
-### Pensando Casos de uso para IaC
+## 6. Pensando Casos de uso para IaC
 
 Ahora pensemos casos de uso simples que nos permitan evaluar a grandes rasgos las distintas posibilidades de adoptar una herramienta de IaC. Hay que poner en
 evidencia, que en no todos los casos, la respuesta será Terraform. 
 
-#### Caso de uso nº 1
+### Caso de uso nº 1
 Pongamos un ejemplo de un caso de uso de una empresa: 
 1. La organización basará toda su infraestructura en AWS por los próximos 25 años. 
 2. Se requerirá un soporte oficial en caso de que se enfrente con algún tipo de inconveniente con la herramienta de IaC o con su código. 
@@ -136,7 +136,7 @@ Por otro lado, Terraform no cuenta con ninguna herramienta de estas característ
 
 **Posible Solución**: la posible solución será utilizar el servicio de Cloudformation junto con algún nivel de suscripción para soporte técnico. 
 
-#### Caso de uso nº 2
+### Caso de uso nº 2
 En este ejemplo, los requisitos son: 
 1. **La organización se basará en una solución híbrida**: se utiliza VMWare para los servidores on-premises y los proveedores AWS, Azure y GCP para la nube. 
 2. Se requerirá un soporte oficial en caso de que se enfrente con algún tipo de inconveniente con la herramienta de IaC. Estos casos suceden cuando los errores que está teniendo la herramienta corresponden con lo que se encuentra documentado en la página oficial de la herramienta. 
