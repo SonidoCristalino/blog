@@ -1,6 +1,6 @@
 +++ 
 date = '2025-10-31T23:12:06-03:00'
-draft = true
+draft = false
 title = "Introducción a Terraform"
 authors = ["Universo 25"] 
 categories = ["Terraform"]
