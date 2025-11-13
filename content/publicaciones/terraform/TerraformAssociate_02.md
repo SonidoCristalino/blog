@@ -1,7 +1,7 @@
 +++ 
 date = '2025-11-03T22:29:29-03:00'
 draft = false
-title = "Configuración del Laboratorio"
+title = "02 - Configuración del Laboratorio"
 authors = ["Universo 25"] 
 categories = ["Terraform"]
 tags = ["Terraform", "Hashicorp", "Certificación", "SetUpLab"] 
