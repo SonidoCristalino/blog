@@ -1,5 +1,5 @@
 +++ 
-date = '2025-12-03T22:34:47-03:00'
+date = '2025-12-02T22:34:47-03:00'
 draft = false
 title = '04 - Configuraciones - Parte nº 1'
 authors = ["Universo 25"] 
