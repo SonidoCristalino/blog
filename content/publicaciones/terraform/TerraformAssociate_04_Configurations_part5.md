@@ -101,12 +101,11 @@ En el archivo `44_main.tf` vamos a poder ver algo como esto:
 
 ```terraform
 resource "aws_instance" "terraformEC2" {
-  ami           = var.ami
-  instance_type = var.instance_type
-
-  tags   = {
-    Name = "Terraform EC2"
-  }
+    ami           = var.ami
+    instance_type = var.instance_type
+    tags          = {
+        Name = "Terraform EC2"
+    }
 }
 ```
 
