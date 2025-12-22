@@ -5,6 +5,7 @@ title = '03 - Desplegando la infraestructura'
 authors = ["Universo 25"] 
 categories = ["Terraform"]
 tags = ["Terraform", "Hashicorp", "Certificación", "Despliegue"] 
+series = ["Curso Terraform"]
 +++
 
 # Sección nº 3

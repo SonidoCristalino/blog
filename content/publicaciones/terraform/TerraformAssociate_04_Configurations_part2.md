@@ -5,6 +5,7 @@ title = '04 - Configuraciones - Parte nº 2'
 authors = ["Universo 25"] 
 categories = ["Terraform"]
 tags = ["Terraform", "Hashicorp", "Certificación", "Configurations"] 
+series = ["Curso Terraform"]
 +++
 
 ## Creando una IP Elástica con Terraform

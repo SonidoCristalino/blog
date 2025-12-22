@@ -6,6 +6,7 @@ title = '04 - Configuraciones - Parte nº 3'
 authors = ["Universo 25"] 
 categories = ["Terraform"]
 tags = ["Terraform", "Hashicorp", "Certificación", "Configurations"] 
+series = ["Curso Terraform"]
 +++
 
 ## Output Values

@@ -5,6 +5,7 @@ title = "02 - Configuración del Laboratorio"
 authors = ["Universo 25"] 
 categories = ["Terraform"]
 tags = ["Terraform", "Hashicorp", "Certificación", "SetUpLab"] 
+series = ["Curso Terraform"]
 +++
 
 # Sección nº 2

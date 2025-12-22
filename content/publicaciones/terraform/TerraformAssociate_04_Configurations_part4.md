@@ -6,6 +6,7 @@ title = '04 - Configuraciones - Parte nº 4'
 authors = ["Universo 25"] 
 categories = ["Terraform"]
 tags = ["Terraform", "Hashicorp", "Certificación", "Configurations"] 
+series = ["Curso Terraform"]
 +++
 
 ## Revisión general de las variables de Terraform

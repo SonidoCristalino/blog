@@ -5,6 +5,7 @@ title = "01 - Introducción a Terraform"
 authors = ["Universo 25"] 
 categories = ["Terraform"]
 tags = ["Terraform", "Hashicorp", "Certificación", "Introducción"] 
+series = ["Curso Terraform"]
 +++
 
 # Sección nº 1
