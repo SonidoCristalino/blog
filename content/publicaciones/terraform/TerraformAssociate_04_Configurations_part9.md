@@ -1,6 +1,6 @@
 +++ 
 date = '2026-01-04T22:34:47-03:00'
-draft = true
+draft = false
 title = '04 - Configuraciones - Parte nº 9'
 authors = ["Universo 25"] 
 categories = ["Terraform"]
